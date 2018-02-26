@@ -1,0 +1,107 @@
+2018-01-18 13:06:58,279 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-01-18 13:06:58,577 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-01-18 13:06:58,671 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-01-18 13:07:02,799 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found infleks.war in deployment directory. To trigger deployment create a file called infleks.war.dodeploy
+2018-01-18 13:07:03,269 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-01-18 13:07:03,270 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2018-01-18 13:07:03,280 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2018-01-18 13:07:03,415 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 54) WFLYSEC0002: Activating Security Subsystem
+2018-01-18 13:07:03,432 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 47) WFLYNAM0001: Activating Naming Subsystem
+2018-01-18 13:07:03,436 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 57) WFLYWS0002: Activating WebServices Extension
+2018-01-18 13:07:03,467 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 45) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-01-18 13:07:03,929 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 38) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2018-01-18 13:07:04,133 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.21.Final
+2018-01-18 13:07:04,138 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-01-18 13:07:04,259 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0005: Deploying non-JDBC-compliant driver class net.sourceforge.jtds.jdbc.Driver (version 1.3)
+2018-01-18 13:07:04,836 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-01-18 13:07:04,954 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2018-01-18 13:07:04,956 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:global/YFYOMail]
+2018-01-18 13:07:04,986 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.jdbcdslog.DriverLoggingProxy (version 1.8)
+2018-01-18 13:07:05,006 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Installed: Module[gravia-system:0.0.0]
+2018-01-18 13:07:05,020 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Runtime created: org.wildfly.extension.gravia.service.WildFlyRuntime@95c0a7c
+2018-01-18 13:07:05,024 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-01-18 13:07:05,074 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 34) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-01-18 13:07:05,104 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Installed: Module[org.apache.felix.configadmin:1.8.8]
+2018-01-18 13:07:05,108 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Installed: Module[org.apache.felix.scr:1.6.2]
+2018-01-18 13:07:05,169 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-01-18 13:07:05,269 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = JTDS
+2018-01-18 13:07:05,274 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = jdbcdslog
+2018-01-18 13:07:05,275 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-01-18 13:07:05,793 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Started: Module[org.apache.felix.configadmin:1.8.8]
+2018-01-18 13:07:05,836 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Started: Module[org.apache.felix.scr:1.6.2]
+2018-01-18 13:07:05,837 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 56) WFLYUT0014: Creating file handler for path 'C:\Programs\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-01-18 13:07:05,874 WARN  [org.jboss.gravia.runtime] (MSC service thread 1-3) Invalid configuration directory: C:\Programs\wildfly-10.1.0.Final\standalone\configuration\gravia\configs
+2018-01-18 13:07:05,886 INFO  [org.wildfly.extension.camel] (MSC service thread 1-3) Activating Camel Subsystem
+2018-01-18 13:07:05,888 INFO  [org.wildfly.extension.gravia] (MSC service thread 1-3) Activating Gravia Subsystem
+2018-01-18 13:07:05,889 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2018-01-18 13:07:05,889 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2018-01-18 13:07:05,892 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-01-18 13:07:05,893 INFO  [org.wildfly.extension.camel] (MSC service thread 1-2) Bound camel naming object: java:jboss/camel/CamelContextFactory
+2018-01-18 13:07:05,895 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2018-01-18 13:07:05,896 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Installed: Module[gravia-container-wildfly-extension:1.3.1]
+2018-01-18 13:07:05,900 INFO  [org.jboss.gravia.runtime] (MSC service thread 1-3) Started: Module[gravia-container-wildfly-extension:1.3.1]
+2018-01-18 13:07:05,906 INFO  [org.wildfly.extension.camel] (MSC service thread 1-8) Bound camel naming object: java:jboss/camel/CamelContextRegistry
+2018-01-18 13:07:05,954 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:/global/MuhasebeDS
+2018-01-18 13:07:05,959 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:/global/FinbaseFonDS
+2018-01-18 13:07:06,287 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\Programs\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-01-18 13:07:06,301 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Programs\wildfly-10.1.0.Final\standalone\deployments
+2018-01-18 13:07:06,319 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "jamon.war" (runtime-name: "jamon.war")
+2018-01-18 13:07:06,323 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "infleks.war" (runtime-name: "infleks.war")
+2018-01-18 13:07:06,698 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-01-18 13:07:06,845 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-18 13:07:06,849 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-18 13:07:06,851 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-18 13:07:06,853 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-18 13:07:06,855 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-18 13:07:06,858 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-01-18 13:07:07,759 INFO  [com.arjuna.ats.jbossatx] (MSC service thread 1-6) ARJUNA032010: JBossTS Recovery Service (tag: c5912) - JBoss Inc.
+2018-01-18 13:07:07,912 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow AJP listener ajp listening on 0.0.0.0:8009
+2018-01-18 13:07:08,088 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2018-01-18 13:07:08,096 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2018-01-18 13:07:08,107 INFO  [com.arjuna.ats.jbossatx] (MSC service thread 1-6) ARJUNA032013: Starting transaction recovery manager
+2018-01-18 13:07:08,300 INFO  [com.arjuna.ats.jbossatx] (MSC service thread 1-6) ARJUNA032017: JBossTS Transaction Service (JTA version - tag: c5912) - JBoss Inc.
+2018-01-18 13:07:08,606 INFO  [org.jboss.as.connector.subsystems.datasources.AbstractDataSourceService$AS7DataSourceDeployer] (MSC service thread 1-4) IJ020018: Enabling <validate-on-match> for java:/global/YFYODS
+2018-01-18 13:07:08,625 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:/global/YFYODS]
+2018-01-18 13:07:08,849 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-01-18 13:07:08,831 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) WFLYRMT0001: Listening on 127.0.0.1:9999
+2018-01-18 13:07:10,388 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0004: Deploying JDBC-compliant driver class org.hsqldb.jdbc.JDBCDriver (version 2.3)
+2018-01-18 13:07:10,436 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = jamon.war_org.hsqldb.jdbc.JDBCDriver_2_3
+2018-01-18 13:07:14,881 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /jamon
+2018-01-18 13:07:14,883 INFO  [org.wildfly.extension.camel] (ServerService Thread Pool -- 62) Add Camel endpoint: http://0.0.0.0:8080/jamon
+2018-01-18 13:07:15,375 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for YFYOUnit
+2018-01-18 13:07:18,518 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'infleks.war#YFYOUnit'
+2018-01-18 13:07:18,544 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 62) HHH000204: Processing PersistenceUnitInfo [
+	name: YFYOUnit
+	...]
+2018-01-18 13:07:18,641 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 62) HHH000412: Hibernate Core {5.0.10.Final}
+2018-01-18 13:07:18,643 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000206: hibernate.properties not found
+2018-01-18 13:07:18,646 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 62) HHH000021: Bytecode provider name : javassist
+2018-01-18 13:07:18,718 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 62) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-18 13:07:21,826 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment infleks.war
+2018-01-18 13:07:22,068 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.2.4.Final
+2018-01-18 13:07:22,319 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RiskServisi' in deployment unit 'deployment "infleks.war"' are as follows:
+
+	java:global/infleks/RiskServisi!com.infina.servis.py.RiskServisi
+	java:app/infleks/RiskServisi!com.infina.servis.py.RiskServisi
+	java:module/RiskServisi!com.infina.servis.py.RiskServisi
+	java:global/infleks/RiskServisi
+	java:app/infleks/RiskServisi
+	java:module/RiskServisi
+
+2018-01-18 13:07:22,321 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'RiskActiveServisi' in deployment unit 'deployment "infleks.war"' are as follows:
+
+	java:global/infleks/RiskActiveServisi!com.infina.servis.ex.riskActive.RiskActiveServisi
+	java:app/infleks/RiskActiveServisi!com.infina.servis.ex.riskActive.RiskActiveServisi
+	java:module/RiskActiveServisi!com.infina.servis.ex.riskActive.RiskActiveServisi
+	java:global/infleks/RiskActiveServisi
+	java:app/infleks/RiskActiveServisi
+	java:module/RiskActiveServisi
+
+2018-01-18 13:07:22,322 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ErdemirGunsonuServisi' in deployment unit 'deployment "infleks.war"' are as follows:
+
+	java:global/infleks/ErdemirGunsonuServisi!com.infina.servis.ex.erdemir.ErdemirGunsonuServisi
+	java:app/infleks/ErdemirGunsonuServisi!com.infina.servis.ex.erdemir.ErdemirGunsonuServisi
+	java:module/ErdemirGunsonuServisi!com.infina.servis.ex.erdemir.ErdemirGunsonuServisi
+	java:global/infleks/ErdemirGunsonuServisi
+	java:app/infleks/ErdemirGunsonuServisi
+	java:module/ErdemirGunsonuServisi
